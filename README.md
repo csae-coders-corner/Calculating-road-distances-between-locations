@@ -22,5 +22,5 @@ georoute, hereid(here_id) herecode(here_code) startad(Piock N’peel fruit juice
 
 By default, the command generates three variables; travel_distance, travel_time and georoute_diagnostic. The first is road distance, the second is the travel time and the last is an indicator of any issues that the program ran into for an observation, such as “no route found”. The names of these variables can be changed from default by using the options distance(), time() and diagnostic(), respectively. By default, the distance is calculated in miles, unless the option km is specified. The travel time is given in minutes. The command help file provides details of other options available.
 
-**AUTHORS: Marta Grabowska, London School of Economics (formerly Research and Projects Officer at the CSAE), and Verena Wiedemann, Department of Economics, University of Oxford**
+**AUTHORS: Marta Grabowska, London School of Economics (formerly Research and Projects Officer at the CSAE), and Verena Wiedemann, University of Oxford**
 **14.02.2019**
