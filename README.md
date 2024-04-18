@@ -1,4 +1,7 @@
+![CC Graphics 2024_Roaddistances](https://github.com/csae-coders-corner/Calculating-road-distances-between-locations/assets/148211163/382e171d-5819-4faf-be8a-b149c547f06d)
+
 # Calculating-road-distances-between-locations
+
 The Stata command georoute  is a great shortcut for reliably calculating routing distances and travel time between either two geographical coordinates or two addresses. This command is particularly useful as it calculates the driving distance and travel time (by car, under usual traffic conditions) as opposed to straight-line distances. 
 This is important in socio-economic research as it enables the user to obtain a measure of proximity or isolation of locations relative to others, such as urban centres, employment centres, ports or airports, local amenities, etc. 
 Additionally, it does not require loading context-specific maps and shapefiles into Stata or even outsourcing this step to another software package. georoute calculates the routing distance between two geographical points, identified by their coordinates. The command draws on mapping data by a commercial provider called HERE, which is of high quality even for remote contexts, but requires you to set up a free account for developers (see below). Once this is set up, the HERE ID and HERE CODE are used directly in the code. 
